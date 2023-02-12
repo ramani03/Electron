@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather Report</title>
+    <!-- https://electronjs.org/docs/tutorial
+                           /security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" 
+          content="script-src 'self' 'unsafe-inline';" />
+          <link rel="stylesheet" href="in.css" class="css">
+  </head>
+  <body>
+    <div class="app">
+        <div class="search">
+            <input type="text" id="inbox" class="inbox" placeholder="Enter Name of the Place" >
+        </div>
+        <div class="content">
+            <div class="place">
+                <div class="city" id="city"></div>
+                <div class="date" id="date"></div>
+            </div>
+            <div class="weinfo">
+                <div class="temp" id="temp"></div>
+                <div class="minmax" id="minmax"></div>
+                 <div class="info" id="info"></div>
+                <div id="pic"><img/></div>
+            </div>
+        </div>
+    </div>
+    <script src="apj.js"></script>
+    
+  </body>
+</html>
